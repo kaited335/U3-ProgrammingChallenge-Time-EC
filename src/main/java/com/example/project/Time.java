@@ -40,13 +40,13 @@ public class Time{
         }
         time += ":";
         if (min < 10) {
-            time += "0" + min;
+            time += "0" + minute;
         } else {
             time += min;
         }
         time += ":";
         if (sec < 10) {
-            time += "0" + sec;
+            time += "0" + second;
         } else {
             time += sec;
         }
